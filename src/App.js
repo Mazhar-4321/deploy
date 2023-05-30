@@ -1,23 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import { Counter } from './features/counter/Counter';
+import { CrudUsecase } from './crudUsecase/CrudUsecase';
+import SampleTabs from './MuiUsecase/MuiUsecase';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { red } from '@mui/material/colors';
 
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "rgb(0,0,0,1)",
+    },
+    secondary:{
+      main:'#FFFFFF'
+    }
+  },
+});
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ThemeProvider theme={theme}>
+      <SampleTabs />
+      </ThemeProvider>
     </div>
   );
 }
