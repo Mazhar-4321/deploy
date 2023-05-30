@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Mazhar-4321/deploy/static/css/main.7ae4fbf2.css",
+    "main.js": "/Mazhar-4321/deploy/static/js/main.7c49e7fa.js",
+    "static/js/787.9b150eb7.chunk.js": "/Mazhar-4321/deploy/static/js/787.9b150eb7.chunk.js",
+    "static/media/logo.svg": "/Mazhar-4321/deploy/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Mazhar-4321/deploy/index.html",
+    "main.7ae4fbf2.css.map": "/Mazhar-4321/deploy/static/css/main.7ae4fbf2.css.map",
+    "main.7c49e7fa.js.map": "/Mazhar-4321/deploy/static/js/main.7c49e7fa.js.map",
+    "787.9b150eb7.chunk.js.map": "/Mazhar-4321/deploy/static/js/787.9b150eb7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ae4fbf2.css",
+    "static/js/main.7c49e7fa.js"
+  ]
+}
